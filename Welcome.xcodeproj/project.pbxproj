@@ -12,6 +12,9 @@
 		692ECB3124D99F7B003AD10D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692ECB2F24D99F7B003AD10D /* Main.storyboard */; };
 		692ECB3324D99F7D003AD10D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 692ECB3224D99F7D003AD10D /* Assets.xcassets */; };
 		692ECB3624D99F7D003AD10D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692ECB3424D99F7D003AD10D /* LaunchScreen.storyboard */; };
+		69C6337B24DADD3C000EBC2C /* Screenshot03.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C6337824DADD3C000EBC2C /* Screenshot03.png */; };
+		69C6337C24DADD3C000EBC2C /* Screenshot01.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C6337924DADD3C000EBC2C /* Screenshot01.png */; };
+		69C6337D24DADD3C000EBC2C /* Screenshot02.png in Resources */ = {isa = PBXBuildFile; fileRef = 69C6337A24DADD3C000EBC2C /* Screenshot02.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		692ECB3224D99F7D003AD10D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		692ECB3524D99F7D003AD10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		692ECB3724D99F7D003AD10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69C6337824DADD3C000EBC2C /* Screenshot03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot03.png; sourceTree = "<group>"; };
+		69C6337924DADD3C000EBC2C /* Screenshot01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.png; sourceTree = "<group>"; };
+		69C6337A24DADD3C000EBC2C /* Screenshot02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,7 @@
 		692ECB2824D99F7B003AD10D /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				69C6337724DADCCA000EBC2C /* Screenshots */,
 				692ECB2924D99F7B003AD10D /* AppDelegate.swift */,
 				692ECB2B24D99F7B003AD10D /* SceneDelegate.swift */,
 				692ECB2F24D99F7B003AD10D /* Main.storyboard */,
@@ -62,6 +69,16 @@
 				692ECB3724D99F7D003AD10D /* Info.plist */,
 			);
 			path = Welcome;
+			sourceTree = "<group>";
+		};
+		69C6337724DADCCA000EBC2C /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				69C6337924DADD3C000EBC2C /* Screenshot01.png */,
+				69C6337A24DADD3C000EBC2C /* Screenshot02.png */,
+				69C6337824DADD3C000EBC2C /* Screenshot03.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,9 +138,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69C6337B24DADD3C000EBC2C /* Screenshot03.png in Resources */,
 				692ECB3624D99F7D003AD10D /* LaunchScreen.storyboard in Resources */,
 				692ECB3324D99F7D003AD10D /* Assets.xcassets in Resources */,
+				69C6337C24DADD3C000EBC2C /* Screenshot01.png in Resources */,
 				692ECB3124D99F7B003AD10D /* Main.storyboard in Resources */,
+				69C6337D24DADD3C000EBC2C /* Screenshot02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
