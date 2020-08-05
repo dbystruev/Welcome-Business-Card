@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17132" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Izs-SW-yxO">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17105.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Iug-m8-cNF">
+            <objects>
+                <viewController id="IwE-59-eKG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eE6-wd-qSg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="s8y-Dl-ZJb"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="more" id="Yh0-nR-aQT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wqg-Pm-Clf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2102.898550724638" y="807.58928571428567"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Axx-r6-R5l">
+            <objects>
+                <viewController id="Ohe-pX-u7v" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RX8-Qw-CKc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ygb-cX-Tx4"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="contacts" id="jNC-Av-psn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WbS-Cz-IEf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2102.898550724638" y="95.758928571428569"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gyv-aY-POz">
+            <objects>
+                <viewController id="XfB-RC-Tcc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Nx-G0-FrN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Denis Bystruev" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rfr-sS-m0q">
+                                <rect key="frame" x="98" y="64" width="219" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bystruev" translatesAutoresizingMaskIntoConstraints="NO" id="h4a-0K-Qvt">
+                                <rect key="frame" x="-16" y="100" width="517" height="696"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="txQ-aC-mHX"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="featured" id="hb6-9l-Cru"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K5E-ka-xbh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2102.898550724638" y="-583.25892857142856"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="aWu-Se-jfe">
+            <objects>
+                <tabBarController id="Izs-SW-yxO" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zq5-zt-6DC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="XfB-RC-Tcc" kind="relationship" relationship="viewControllers" id="uGo-qG-6da"/>
+                        <segue destination="Ohe-pX-u7v" kind="relationship" relationship="viewControllers" id="Lrg-Hv-DkB"/>
+                        <segue destination="IwE-59-eKG" kind="relationship" relationship="viewControllers" id="Rcy-Af-9gY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vCz-p9-Ifr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="800" y="96"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Bystruev" width="383" height="300"/>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
